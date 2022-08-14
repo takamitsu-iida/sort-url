@@ -52,6 +52,17 @@ radix treeに格納する際には同じキーがすでに存在するかわか�
 
 数字はXMLファイルで読み取った順番です。
 
+ワイルドカード（*）の解釈次第では、不要なエントリも散見します。
+たとえば、この二つ。
+
+```text
+com.microsoft.* 99
+com.microsoft.admin 245
+```
+
+`com.microsoft.admin` は `com.microsoft.*` にも一致します。
+ロンゲストマッチ方式で挙動を変えたいのであれば意味を持ちますが、単純にフィルタリングするだけなら `com.microsoft.admin` は不要です。
+
 ```bash
 iida@s400win:~/go/src/sort-url$ go run main.go
 ai.cortana.* 244
