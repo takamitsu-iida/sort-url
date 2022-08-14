@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domainlist>
+  <service name="MS-Apps">
+    <dst>
+      <url>outlook.office.com</url>
+      <url>outlook.office365.com</url>
+      <url>*.protection.outlook.com</url>
+      <url>*.lync.com</url>
+      <url>*.teams.microsoft.com</url>
+      <url>teams.microsoft.com</url>
+      <url>*.broadcast.skype.com</url>
+      <url>broadcast.skype.com</url>
+      <url>*.skypeforbusiness.com</url>
+      <url>*.sharepoint.com</url>
+      <url>*.officeapps.live.com</url>
+      <url>*.online.office.com</url>
+      <url>office.live.com</url>
+      <url>*.auth.microsoft.com</url>
+      <url>*.msftidentity.com</url>
+      <url>*.msidentity.com</url>
+      <url>account.activedirectory.windowsazure.com</url>
+      <url>accounts.accesscontrol.windows.net</url>
+      <url>adminwebservice.microsoftonline.com</url>
+      <url>api.passwordreset.microsoftonline.com</url>
+      <url>autologon.microsoftazuread-sso.com</url>
+      <url>becws.microsoftonline.com</url>
+      <url>ccs.login.microsoftonline.com</url>
+      <url>clientconfig.microsoftonline-p.net</url>
+      <url>companymanager.microsoftonline.com</url>
+      <url>device.login.microsoftonline.com</url>
+      <url>graph.microsoft.com</url>
+      <url>graph.windows.net</url>
+      <url>login.microsoft.com</url>
+      <url>login.microsoftonline.com</url>
+      <url>login.microsoftonline-p.com</url>
+      <url>login.windows.net</url>
+      <url>logincert.microsoftonline.com</url>
+      <url>loginex.microsoftonline.com</url>
+      <url>login-us.microsoftonline.com</url>
+      <url>nexus.microsoftonline-p.com</url>
+      <url>passwordreset.microsoftonline.com</url>
+      <url>provisioningapi.microsoftonline.com</url>
+      <url>*.compliance.microsoft.com</url>
+      <url>*.protection.office.com</url>
+      <url>*.security.microsoft.com</url>
+      <url>compliance.microsoft.com</url>
+      <url>defender.microsoft.com</url>
+      <url>protection.office.com</url>
+      <url>security.microsoft.com</url>
+      <url>account.office.net</url>
+    </dst>
+  </service>
+</domainlist>
