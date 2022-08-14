@@ -50,7 +50,7 @@ radix treeに格納する際には同じキーがすでに存在するかわか�
 
 ## 以下、実行結果
 
-数字はXMLファイルで読み取った順番です。
+URLの後ろの数字はXMLファイルで読み取った順番です。
 
 ワイルドカード（*）の解釈次第では、不要なエントリも散見します。
 たとえば、この二つ。
@@ -62,6 +62,18 @@ com.microsoft.admin 245
 
 `com.microsoft.admin` は `com.microsoft.*` にも一致します。
 ロンゲストマッチ方式で挙動を変えたいのであれば意味を持ちますが、単純にフィルタリングするだけなら `com.microsoft.admin` は不要です。
+
+また、重複するエントリが5個あることもわかります。
+
+```text
+===duplicate===
+officeclient.microsoft.com  is duplicated.
+ajax.aspnetcdn.com  is duplicated.
+auth.gfx.ms  is duplicated.
+login.live.com  is duplicated.
+cdn.odc.officeapps.live.com  is duplicated.
+```
+
 
 ```bash
 iida@s400win:~/go/src/sort-url$ go run main.go
